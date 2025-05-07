@@ -1,6 +1,6 @@
 {% set name = "azure-mgmt-cosmosdb" %}
 {% set version = "9.8.0" %}
-{% set python_min = "3.8" %}
+{% set python_min = "3.9" %}
 
 package:
   name: {{ name|lower }}
