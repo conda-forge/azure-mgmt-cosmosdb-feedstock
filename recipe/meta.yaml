@@ -24,7 +24,7 @@ requirements:
     - python >={{ python_min }}
     - azure-common >=1.1,<2
     - azure-mgmt-core >=1.6.0,<2.0.0
-    - msrest>=0.7.1
+    - msrest >=0.7.1
 
 test:
   imports:
