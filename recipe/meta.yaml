@@ -1,5 +1,5 @@
 {% set name = "azure-mgmt-cosmosdb" %}
-{% set version = "9.9.0" %}
+{% set version = "10.0.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 4678bf042bdc208aa24fca71767ac29b6f2a2722ac7872608371a5922f3b6c37
+  sha256: f9f5e9cbc984ad3cf3f9bdfb853ec3e868b0e89e9c2597de4d429fa6602ca8d9
 
 build:
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
